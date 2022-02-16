@@ -6,7 +6,7 @@ package cuentasBanco;
  */
 public class CCuenta {
     private String nombre;
-    private String numCuenta;
+    private String cuenta;
     private double saldo;
     private double tipoInteres;
     /**
@@ -79,14 +79,14 @@ public class CCuenta {
 	 * Método por el que se obtiene una cadena de texto que representa el número de la cuenta
 	 */
 	public String getCuenta() {
-		return numCuenta;
+		return cuenta;
 	}
 	/**
 	 * Método por el que se fija el número de la cuenta
 	 * @param cuenta Parámetro por el que se indica el número de la cuenta
 	 */
 	public void setCuenta(String cuenta) {
-		this.numCuenta = cuenta;
+		this.cuenta = cuenta;
 	}
 	/**
 	 * Método para obtener el dinero disponible en cuenta
